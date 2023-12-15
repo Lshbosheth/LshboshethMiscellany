@@ -1,0 +1,17 @@
+{
+  "name": "lshboshethmiscellany",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "vitepress dev miscellany",
+    "dev": "vitepress dev miscellany",
+    "build": "vitepress build miscellany",
+    "serve": "vitepress serve miscellany",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vitepress": "^1.0.0-rc.31"
+  }
+}
