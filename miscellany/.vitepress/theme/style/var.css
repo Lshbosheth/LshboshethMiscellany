@@ -18,3 +18,15 @@
 
     --vp-button-brand-active-border: #F6CEEC;
 }
+.VPHome {
+    &::before {
+        content: '';
+        inset: 0;
+        position: fixed;
+        top: 0;
+        z-index: -1;
+        background-image: url(bg.png);
+        background-repeat: repeat;
+        min-height: 100%;
+    }
+}
