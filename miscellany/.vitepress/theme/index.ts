@@ -1,5 +1,12 @@
 import Theme from "vitepress/theme";
-import './style/var.css'
+import { h } from "vue"
+import AnimateTitle from './components/animateTitle.vue'
+import "./style/var.css"
 export default {
-    ...Theme
+    ...Theme,
+    Layout() {
+        return h(Theme.Layout, null, {
+            "home-hero-info": () => h(AnimateTitle),
+        });
+    },
 }
