@@ -9,6 +9,14 @@ export default defineConfig({
   ],
   lastUpdated: true,
   themeConfig: {
+    search: {
+      provider: 'algolia',
+      options: {
+        appId: '67IERLLQ9S',
+        apiKey: 'f1fad1237d370f769f0195d22661e0da',
+        indexName: 'lshbosheth',
+      },
+    },
     lastUpdatedText: '上次更新于',
     logo: '/logo.jpg',
     editLink: {
