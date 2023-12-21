@@ -34,12 +34,15 @@
 /*        min-height: 100%;*/
 /*    }*/
 /*}*/
-.VPContent {
+.Layout {
     font-family: 'shoujin';
 }
-.VPNavBar .title {
-    font-family: 'shoujin';
-}
+/*.VPContent {*/
+/*    font-family: 'shoujin';*/
+/*}*/
+/*.VPNavBar .title {*/
+/*    font-family: 'shoujin';*/
+/*}*/
 .VPNavBar .VPImage {
     border-radius: 50%;
 }
