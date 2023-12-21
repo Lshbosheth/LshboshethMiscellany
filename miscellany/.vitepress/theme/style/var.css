@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'shoujin';
+    src: url("https://zhyy.test.jk366.net:6034/pdfH5Show/shoujinti.ttf")
+}
 :root {
     --vp-backdrop-bg-color: red;
     /* 标题 */
@@ -18,15 +22,27 @@
 
     --vp-button-brand-active-border: #F6CEEC;
 }
-.VPHome {
-    &::before {
-        content: '';
-        inset: 0;
-        position: fixed;
-        top: 0;
-        z-index: -1;
-        background-image: url(bg.png);
-        background-repeat: repeat;
-        min-height: 100%;
-    }
+/*.VPHome {*/
+/*    &::before {*/
+/*        content: '';*/
+/*        inset: 0;*/
+/*        position: fixed;*/
+/*        top: 0;*/
+/*        z-index: -1;*/
+/*        background-image: url(bg.png);*/
+/*        background-repeat: repeat;*/
+/*        min-height: 100%;*/
+/*    }*/
+/*}*/
+.VPContent {
+    font-family: 'shoujin';
+}
+.VPNavBar .title {
+    font-family: 'shoujin';
+}
+.VPNavBar .VPImage {
+    border-radius: 50%;
+}
+.VPHome .container .image .VPImage {
+    border-radius: 50%;
 }
