@@ -9,6 +9,7 @@ export default {
     Layout() {
         return h(Theme.Layout, null, {
             "home-hero-info": () => h(AnimateTitle),
+            "doc-after": () => h(comment),
         });
     },
     enhanceApp({ app, router, siteData }) {
