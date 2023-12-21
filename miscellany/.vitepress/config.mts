@@ -17,7 +17,13 @@ export default defineConfig({
         indexName: 'lshbosheth',
       },
     },
-    lastUpdated: true,
+    lastUpdated: {
+      text: '上次更新时间',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }
+    },
     logo: '/logo.jpg',
     editLink: {
       pattern:
