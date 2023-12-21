@@ -1,6 +1,8 @@
 import Theme from "vitepress/theme";
 import { h } from "vue"
 import AnimateTitle from './components/animateTitle.vue'
+import comment from "./components/comment.vue";
+
 import "./style/var.css"
 export default {
     ...Theme,
@@ -8,5 +10,8 @@ export default {
         return h(Theme.Layout, null, {
             "home-hero-info": () => h(AnimateTitle),
         });
+    },
+    enhanceApp({ app, router, siteData }) {
+        app.component("Comment", comment);
     },
 }
