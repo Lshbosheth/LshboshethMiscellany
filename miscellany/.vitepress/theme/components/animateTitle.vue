@@ -13,6 +13,7 @@ import '../style/var.css'
 
 <style scoped>
 .name {
+  user-select: none;
   background: -webkit-linear-gradient(
       315deg,
       rgb(210, 86, 53) 10%,
@@ -43,6 +44,7 @@ import '../style/var.css'
 
 .name,
 .text {
+  user-select: none;
   font-family: "shoujin";
   max-width: 392px;
   letter-spacing: -0.4px;
@@ -68,6 +70,7 @@ import '../style/var.css'
 }
 
 .tagline {
+  user-select: none;
   font-family: "shoujin";
   padding-top: 8px;
   max-width: 392px;
