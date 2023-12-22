@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'shoujin';
-    src: url("https://zhyy.test.jk366.net:6034/pdfH5Show/shoujinti.ttf")
+    src: url("/shoujinti.ttf")
 }
 :root {
     --vp-backdrop-bg-color: red;
