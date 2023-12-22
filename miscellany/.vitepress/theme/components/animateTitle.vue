@@ -1,18 +1,17 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import '../style/var.css'
+
+</script>
 
 <template>
   <h1 class="name">
     <span class="clip">Lshbosheth's Miscellany</span>
   </h1>
   <p class="text">如风过境</p>
-  <p class="tagline">昨夜西风凋敝树</p>
+  <p class="tagline">独上西楼 望断天涯路</p>
 </template>
 
 <style scoped>
-@font-face {
-  font-family: 'shoujin';
-  src: url("https://zhyy.test.jk366.net:6034/pdfH5Show/shoujinti.ttf")
-}
 .name {
   background: -webkit-linear-gradient(
       315deg,

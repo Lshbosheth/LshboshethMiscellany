@@ -34,3 +34,12 @@ features:
     details: 111。
     link: /column/views/guide
 ---
+<home v-if="isShow" @sendToFather="childEvent"></home>
+<script lang="ts" setup>
+import { ref } from "vue";
+import home from './.vitepress/theme/view/home.vue'
+let isShow = ref(true);
+const childEvent = () => {
+    isShow.value = false
+}
+</script>
