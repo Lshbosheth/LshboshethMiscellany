@@ -57,10 +57,10 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Lshbosheth' }
     ],
-    // footer: {
-    //   message: '其实我也不知道写啥注脚',
-    //   copyright: '那我就随便写个吧',
-    // },
+    footer: {
+      message: 'Released under the MIT License',
+      copyright: 'Copyright © 2020-present Lshbosheth',
+    },
     docFooter: {
       prev: '上一页',
       next: '下一页',

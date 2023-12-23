@@ -49,3 +49,11 @@
 .VPHome .container .image .VPImage {
     border-radius: 50%;
 }
+.VPFooter {
+    padding: 15px 0 !important;
+}
+.VPFooter .container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
