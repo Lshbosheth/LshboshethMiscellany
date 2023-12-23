@@ -12,7 +12,7 @@ export default {
             "doc-after": () => h(comment),
         });
     },
-    enhanceApp({ app, router, siteData }) {
-        app.component("Comment", comment);
+    enhanceApp(app: any) {
+        Theme.enhanceApp(app)
     },
 }
