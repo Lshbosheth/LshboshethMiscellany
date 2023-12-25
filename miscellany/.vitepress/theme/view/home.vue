@@ -1,5 +1,5 @@
 <template>
-  <div class="container" @click.self="clickContainer">昨夜西风凋敝树</div>
+  <div class="container" @click.self="clickContainer"><div class="containerText">昨夜西风凋敝树</div></div>
 </template>
 <script lang="ts" setup>
 import { defineEmits } from 'vue';
@@ -24,6 +24,35 @@ const clickContainer = () => {
   padding-top: 130px;
   justify-content: center;
   font-size: 30px;
+}
+
+.containerText {
   user-select: none;
+  background: -webkit-linear-gradient(
+      315deg,
+      rgb(210, 86, 53) 10%,
+      #647eff 50%,
+      rgb(238, 224, 112) 90%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 </style>
