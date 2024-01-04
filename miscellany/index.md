@@ -7,12 +7,8 @@ editLink: true
 lastUpdate: true
 
 hero: 
-    name: Lshbosheth
-    text: 呵呵
-    tagline: 呵呵
     image:
         src: /logo.jpg
-        alt: haha
     actions:
       - theme: brand
         text: 进入主页
@@ -43,17 +39,16 @@ const childEvent = () => {
     isShow.value = false
 }
 
-
-const documentTitle = ref<string>(document.title);
-let timerID: NodeJS.Timeout | null = null;
-const newDocumentTitle = () => {
-  clearTimeout(timerID as NodeJS.Timeout)
-    document.title = document.title.substring(1, documentTitle.value.length) + documentTitle.value.substring(0, 1);
-    documentTitle.value = document.title.substring(0, documentTitle.value.length);
-    timerID = setTimeout(() => newDocumentTitle(), 100);
-}
-
-onMounted(() => {
-  timerID = setTimeout(() => newDocumentTitle(), 100);
-});
+// const documentTitle = ref<string>(document.title);
+// let timerID: NodeJS.Timeout | null = null;
+// const newDocumentTitle = () => {
+//   clearTimeout(timerID as NodeJS.Timeout)
+//     document.title = document.title.substring(1, documentTitle.value.length) + documentTitle.value.substring(0, 1);
+//     documentTitle.value = document.title.substring(0, documentTitle.value.length);
+//     timerID = setTimeout(() => newDocumentTitle(), 100);
+// }
+//
+// onMounted(() => {
+//   timerID = setTimeout(() => newDocumentTitle(), 100);
+// });
 </script>
