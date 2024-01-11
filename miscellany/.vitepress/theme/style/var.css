@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'shoujin';
-    src: url("/shoujinti.ttf")
+    src: url("https://oss.lshbosheth.cn/%E6%9D%82%E7%B1%BB/shoujinti.ttf")
 }
 :root {
     --vp-backdrop-bg-color: red;
