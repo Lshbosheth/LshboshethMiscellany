@@ -16,5 +16,9 @@
     "@giscus/vue": "^2.4.0",
     "vitepress": "^1.0.0-rc.31",
     "vue": "^3.3.13"
+  },
+  "devDependencies": {
+    "mermaid": "^10.6.1",
+    "vitepress-plugin-mermaid": "^2.0.16"
   }
 }

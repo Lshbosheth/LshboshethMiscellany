@@ -1,6 +1,6 @@
-import { defineConfig } from "vitepress"
+import { withMermaid } from "vitepress-plugin-mermaid";
 
-export default defineConfig({
+export default withMermaid({
   title: "Lshbosheth's Miscellany",
   description: "Lshbosheth的杂类记录",
   lang: 'zh-CN',
@@ -8,6 +8,7 @@ export default defineConfig({
     ['link', { rel: 'icon', href: 'favicon.ico', type: 'image/png' }]
   ],
   lastUpdated: true,
+  mermaid: {},
   themeConfig: {
     search: {
       provider: 'algolia',
