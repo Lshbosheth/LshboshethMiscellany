@@ -82,9 +82,4 @@ const a: number = 1
 ```
 
 :::
-
-
-<Badge type="info" text="default" />
-<Badge type="tip" text="^1.9.0" />
-<Badge type="warning" text="beta" />
-<Badge type="danger" text="caution" />
+<CodeSandbox codeId="7324140327835533338" />

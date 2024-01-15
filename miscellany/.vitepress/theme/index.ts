@@ -2,6 +2,7 @@ import Theme from "vitepress/theme";
 import { h } from "vue"
 import AnimateTitle from './components/animateTitle.vue'
 import comment from "./components/comment.vue";
+import CodeSandbox from "./components/codeSandbox.vue";
 
 import "./style/var.css"
 export default {
@@ -12,7 +13,7 @@ export default {
             "doc-after": () => h(comment),
         });
     },
-    enhanceApp(app: any) {
-        Theme.enhanceApp(app)
-    },
+    enhanceApp({ app }) {
+        app.component('CodeSandbox', CodeSandbox)
+    }
 }
