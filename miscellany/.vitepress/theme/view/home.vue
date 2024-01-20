@@ -18,7 +18,7 @@ const clickContainer = () => {
   z-index: 9999;
   width: 100%;
   height: 100vh;
-  background: url("/back.jpg");
+  background: url("http://oss.lshbosheth.cn/img/miscellanyBack.jpg");
   background-size: cover;
   display: flex;
   padding-top: 130px;
